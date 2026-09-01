@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    echo "Hello, Nova Amelia!";
+    echo "Hello, Nova Amelia Triliuner!";
     ?>
 </body>
 
