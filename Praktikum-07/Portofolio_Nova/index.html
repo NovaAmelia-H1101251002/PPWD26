@@ -1,50 +1,83 @@
-«!DOCTYPE html»
-<html lang-iid">
-
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
+    <title>Nova Amelia — Scrapbook Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- Navigasi -->
-    <nav>
-        <div class="container">
-            <div class="logo">My Portofolio</div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Nova Amelia</a>
+        <div class="nav-links">
+            <a href="index.html" class="active">Beranda</a>
+            <a href="about.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
         </div>
     </nav>
-    <!-- Hero Section -->
-    <section class="hero">
+
+    <!-- SECTION HEROS / PROFIL ATAS -->
+    <section class="hero-scrapbook">
         <div class="container">
-            <div class="hero-content">
-                <h1>Halo, Saya <span id="typing-text"></span></h1>
-                <p>Mahasiswa Sistem Informasi</p>
-                <a href="contact.html" class="btn">Hubungi Saya</a>
+            <div class="scrapbook-grid">
+                <!-- Bingkai Foto Bunga -->
+                <div class="vintage-frame">
+                    <img src="images/foto.webp" alt="Nova Amelia">
+                    <div class="frame-flower">🌺</div>
+                </div>
+
+                <!-- Teks Pengenalan -->
+                <div>
+                    <h1 class="script-title">Hallo!</h1>
+                    <p style="font-size: 1.1rem; margin-bottom: 10px;">
+                        Aku seorang <strong id="typing-text" style="color: var(--green);"></strong><span class="cursor">|</span>
+                    </p>
+                    <p>
+                        Selamat datang di website portofolio sederhana! Aku menyukai dunia desain web, penulisan kreatif, dan pembuatan konten estetik, bersosialisasi dengan orang lain, mengikuti kegiatan, serta suka membuat kue saat waktu luang. Mari jelajahi karya dan kegiatanku di sini! ✨
+                    </p>
+                    
+                    <div style="margin-top: 15px;">
+                        <span class="badge-pink">🎓 Pendidikan: Universitas Tanjungpura - Sistem Informasi (2025-2029)</span>
+                        <p></p>
+                        <span class="badge-pink">🎓 Pendidikan: SMAN 7 Pontianak (2022-2025)</span>
+                        <p></p>
+                        <span class="badge-pink">HMSI - Sekretaris Umum 4 (2026-2027)</span>
+                        <p></p>
+                        <span class="badge-pink">INFEST 2027 - Co Sekretaris (2026-2027)</span>
+                        <p></p>
+                        <span class="badge-pink">INFEST 2026 - Staff Humas (2025-2026)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bar Kontak Horizontal (Mirip di Gambar) -->
+            <div class="contact-bar">
+                <span class="contact-item">📞 (+62) 895374050802</span>
+                <a href="mailto:novaamelia2970@gmail.com" class="contact-item">✉️ novaamelia2970@gmail.com</a>
+                <span class="contact-item">📷 @novaamelia_</span>
             </div>
         </div>
     </section>
-    <!-- Proyek Saya -->
-    <section class="projects">
+
+    <!-- SECTION SKILL (Pola Garis Pink & Hijau) -->
+    <section class="striped-section">
         <div class="container">
-            <h2>Proyek Saya</h2>
-            <div class="project-grid" id="project-grid">
-                <!-- Data proyek akan diisi otomatis oleh JavaScript -->
+            <div class="envelope-card text-center">
+                <h2 class="title-accent">Software and Skill</h2>
+                <p>Beberapa keahlian & tools yang biasa aku gunakan:</p>
+                
+                <div class="skills-wrapper">
+                    <span class="skill-tag tag-green">Figma</span>
+                    <span class="skill-tag tag-pink">Microsoft Office</span>
+                    <span class="skill-tag tag-dark">Problem Solving</span>
+                    <span class="skill-tag tag-green">Canva</span>
+                    <span class="skill-tag tag-pink">Copywriting</span>
+                    <span class="skill-tag tag-green">CapCut</span>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 MyPortofolio</p>
-    </footer>
+
     <script src="js/main.js"></script>
 </body>
-
 </html>
-<!---lnafnasjjhgddthrydyda-->
