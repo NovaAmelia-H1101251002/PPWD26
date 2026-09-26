@@ -137,3 +137,4 @@ input:focus, textarea:focus { border-color: var(--green); background: white; }
 .vintage-frame:hover .frame-flower {
     transform: scale(1.3) rotate(-20deg); /* Bunga ikut membesar & Goyang sedikit */
 }
+/*ini blum diubah*/
